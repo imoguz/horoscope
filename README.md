@@ -22,7 +22,7 @@ Feel free to explore my projects, hover over the zodiac sign cards to view horos
 
 ## Project GIF
 
-![Project Snapshot](/assets/horoscope.gif)
+![Project Snapshot](./public/assets/horoscope.gif)
 
 ## Technologies Used
 
