@@ -38,7 +38,7 @@ We would greatly appreciate your contributions to the project. Your help and con
 
 You can access the live demo of the project using the following link:
 
-[Live Demo](https://portfolio-imoguz.vercel.app/)
+[Live Demo](https://horoscope-imoguz.vercel.app/)
 
 ## Contact
 
