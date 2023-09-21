@@ -1,0 +1,8 @@
+@import "../sass/_variables.sass";
+.container {
+  min-height: 107px;
+  background-color: $headerColor;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}

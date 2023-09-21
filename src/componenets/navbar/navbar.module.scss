@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap");
+@import "../sass/_variables.sass";
+@import "../sass/mixin";
+.container {
+  padding: 0 2rem;
+  @include flexing(flex, space-between, center, row, nowrap);
+  .navbar-img {
+    width: 100px;
+  }
+  & a {
+    @include font("Rubik Distressed", 24px, $navColor);
+    text-decoration: none;
+    margin-left: 1rem;
+
+    &:hover {
+      background-color: $navColor;
+      color: white;
+      padding: 0.4rem 0.2rem;
+      border-radius: 10px;
+    }
+  }
+}
+@media (max-width: 1048px) {
+  .navbar-link {
+    @include flexing(flex, space-between, strech, column, nowrap);
+    gap: 20px;
+  }
+}

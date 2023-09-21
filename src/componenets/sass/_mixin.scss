@@ -1,0 +1,12 @@
+@mixin flexing($f, $jc, $ai, $fd, $fw) {
+  display: $f;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-direction: $fd;
+  flex-wrap: $fw;
+}
+@mixin font($ff, $fs, $fc) {
+  font-family: $ff;
+  font-size: $fs;
+  color: $fc;
+}
